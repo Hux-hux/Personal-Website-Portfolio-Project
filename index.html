@@ -8,14 +8,39 @@
 </head>
 <body>
     <header>
-        <h1>Rock Paper Ssisors</h1>
+        <h1>Rock Paper Scissors</h1>
     </header>
     
     <main>
+        <div class="rules main">
+            <h2 id="clickable">GAME RULES</h2>
+            <img src="./resources/images/rules.png" alt="game rules">
+        </div>
 
+        <div class="game main">
+            <form>
+                <br>
+                <h3>PICK TO PLAY:</h3>
+                <section class="list">
+                    <input id="rock" type="radio" name="rock" value="ROCK" required>
+                    <label for="rock">ROCK</label>
+
+                    <input id="paper" type="radio" name="paper" value="PAPER" required>
+                    <label for="paper">PAPER</label>
+
+                    <input id="scissors" type="radio" name="scissors" value="SCISSORS" required>
+                    <label for="scissors">SCISSORS</label>
+                </section>
+                <br>
+                <section class="submission">
+                    <input type="submit" value="GO!">
+                </section>
+            </form>
+        </div>
     </main>
 
     <footer>
+
 
     </footer>
 </body>

@@ -1,6 +1,72 @@
 *{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Impact;
     font-size: 16px;
-    opacity: 0.9;
-    
+    color: #383a48;
+    /* border: 1px solid red; */
+}
+
+body{
+    margin: 0 auto;
+    background-color: #6ca39a;
+}
+header{
+    background-color: #0b675c;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    background-color: #a6cdc4;
+    width: 60%;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+
+h1{
+    color: #fdaa67;
+    font-size: 4em;
+    background-color: #0b675c;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+h2{
+    text-align: center;
+    font-size: 2.5em;
+    background-color: #a6cdc4;
+    margin: 0;
+    padding: 30px 0;
+}
+
+h3{
+    text-align: center;
+}
+
+.submission{
+    text-align: center;
+}
+.game{
+    display: flex;
+    align-items: center;
+    background-color: #a6cdc4;
+    justify-content: center;
+}
+form{
+    height: 100%;
+    width: 500px;
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+}
+img{
+    display: flex;
+    align-content: center;
 }
