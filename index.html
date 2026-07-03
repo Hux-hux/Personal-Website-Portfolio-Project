@@ -13,22 +13,24 @@
     
     <main>
         <div class="rules main">
-            <h2 id="clickable">GAME RULES</h2>
-            <img src="./resources/images/rules.png" alt="game rules">
+            <h2 id="clickable">SEE THE GAME RULES</h2>
+            <section id="scheme">
+                <img src="./resources/images/rules.png" alt="">
+            </section>
         </div>
 
         <div class="game main">
             <form>
                 <br>
-                <h3>PICK TO PLAY:</h3>
+                <h3 id="game">PICK TO PLAY:</h3>
                 <section class="list">
-                    <input id="rock" type="radio" name="rock" value="ROCK" required>
+                    <input id="rock" type="radio" name="choice" value="ROCK" required>
                     <label for="rock">ROCK</label>
 
-                    <input id="paper" type="radio" name="paper" value="PAPER" required>
+                    <input id="paper" type="radio" name="choice" value="PAPER" required>
                     <label for="paper">PAPER</label>
 
-                    <input id="scissors" type="radio" name="scissors" value="SCISSORS" required>
+                    <input id="scissors" type="radio" name="choice" value="SCISSORS" required>
                     <label for="scissors">SCISSORS</label>
                 </section>
                 <br>
@@ -43,5 +45,6 @@
 
 
     </footer>
+    <script src="./index.js"></script>
 </body>
 </html>
