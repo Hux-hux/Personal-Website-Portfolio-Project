@@ -8,7 +8,26 @@
 body{
     margin: 0 auto;
     background-color: #6ca39a;
+    height: 100vh;
 }
+
+footer{
+    text-align: center;
+    background-color: #0b675c;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.footerText {
+    color: #fdaa67;
+    letter-spacing: 1.2px;
+    text-shadow: 1px 1px 0px rgba(56, 58, 72, 1);
+    font-size: larger;
+    margin: 20px;
+    font-weight: lighter;
+ }
+
 header{
     background-color: #0b675c;
     width: 100%;
@@ -24,7 +43,7 @@ main{
     width: 700px;
     margin: 0 auto;
     flex-direction: column;
-    height: 1000px;
+    height: 100vh;
 }
 
 
@@ -35,6 +54,7 @@ h1{
     display: flex;
     position: relative;
     justify-content: center;
+    text-shadow: 2px 2px 0px rgba(56, 58, 72, 1);
 }
 
 h2{
@@ -81,6 +101,16 @@ img{
 
 #scheme {
     display: none;
+}
+
+.scoreText{
+    font-size: 1.7em;
+}
+#winner{
+    text-align: center;
+    color: #fdaa67;
+    text-shadow: 1px 1px 0px rgba(56, 58, 72, 1);
+    font-size: 1.5em;
 }
 
 @media only screen and (max-width: 700px) {
